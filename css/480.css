@@ -1,0 +1,264 @@
+@media screen and (max-width: 480px) {
+    /* 헤더 */
+    body,
+    html {
+      font-size: 12px;
+      position: relative;
+    }
+    header {
+      height: 55px;
+      position: relative;
+    }
+    h1 img {
+      height: 16px;
+    }
+    /* 텍스트 공통 */
+    .black {
+      height: 18px;
+    }
+.h2-title {
+  font-size: 1.5rem;
+  padding: 18px 0 10px 0;
+}
+  .nav-area {
+    top: 73px;
+  }
+.h2-text {
+  line-height: 24px;
+  font-size:12px;
+  letter-spacing: -0.5px;
+  font-family: 's-core-dream-medium';
+}
+.more-btn {
+  display: inline-block;
+  font-size: 11px;
+  padding: 6px 10px 5px 10px;
+  margin-top: 18px;
+  background: #111;
+  color: #fff;
+  line-height: 18px;
+  font-family: 's-core-dream-regular';
+}
+.more-btn > span {
+  float:left;
+}
+.more-btn > span:nth-child(2) {
+  margin-left:32px;
+}
+.more-btn > span > img {
+  width: 21px;
+  margin-top:5px;
+}
+/* 섹션 */
+.div-flex > article > .h2-title {
+  font-size: 16px;
+}
+
+article {
+  margin-bottom: 48px;
+}
+.div-flex {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+.meta > div > img , .bese > div > img{
+  width: 100%;
+}
+.div-flex > article > .more-btn {
+  margin-top:-2px;
+} 
+/* 뉴스 */
+.news > div > img {
+  display:none;
+}
+.news > div > img:nth-child(1) {
+  display:block;
+  width: 100%;
+}
+.news > p {
+  font-size:12px;
+}
+.bagsell {
+  margin-left:0;
+}
+.h2-bagpack {
+  font-size:18px;
+}
+.h4-bagpack {
+ font-size:12px;
+}
+.bagsell > h4 {
+  font-size:10px;
+}
+.bagsell-h4 > br {
+  display:none !important;
+}
+.backpack-swiper-area {
+  overflow:hidden;
+}
+.backpack-swiper-area .swiper-slide {
+  width: 100%;
+}
+
+.backpack-swiper-area .swiper-slide > a {
+  display: block;
+  width: 100%;
+}
+.backpack-swiper-area .swiper-slide > a > img {
+  width: 100%;
+}
+.perfume {
+  height: auto;
+  padding-bottom:24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.list-video {
+  transform: none;
+  top:0;
+  display:flex;
+  justify-content: center;
+  left:0%;
+  width: 90%;
+}
+.list-video > video {
+  width: 100%;
+}
+.text-wrap {
+
+  top:0%;
+  transform: none;
+  position:unset;
+  margin-top:18px;
+  margin-left:0;
+}
+.perfume-text > h2{
+  font-size: 16px;
+  font-family: 's-core-dream-bold';
+  margin-bottom:10px;
+}
+.perfume-text > h3 {
+  font-size: 10px;
+  font-family: 's-core-dream-regular';
+  margin-bottom:10px;
+}
+.perfume-text > div >  a {
+  font-size:10px;
+  font-family: 's-core-dream-regular';
+}
+div.column{
+  display:inline-flex;
+  flex-direction: column;
+}
+
+
+/* footer */
+
+footer {
+  padding-top: 48px;
+}
+
+.input > h2 {
+  text-align: center;
+}
+
+.newsletter input {
+  width:315px;
+  height:38px;
+    padding-left:42px;
+}
+.newsletter .icon {
+  font-size:20px;
+  margin-top:5px;
+  margin-left:10px;
+}
+.news-sub {
+  font-size:10px;
+}
+.newsletter .icon1 {
+  font-size:16px;
+  margin-top:8px;
+  margin-left:11px;
+
+}
+.input-wrap {
+  padding-bottom: 48px;
+  flex-direction:inherit
+}
+
+
+.location {
+  margin-top:24px;
+}
+.f-right {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+.f-rightsub > li {
+  margin-left:0;
+}
+.f-rightsub {
+  display: flex;
+	flex-wrap: wrap;
+  width: 80%;
+  margin:0 auto;
+}
+.f-rightsub > li:nth-child(1),
+.f-rightsub > li:nth-child(3){
+  margin-right:36px;
+}
+.f-rightsub > li:nth-child(1),.f-rightsub > li:nth-child(2) {
+  border-bottom: 1px solid #c4c4c4;
+}
+.f-rightsub > li:nth-child(2) {
+  height: 133px;
+}
+.f-rightsub > li:nth-child(3) {
+  margin-top:24px;
+}
+.f-rightsub > li:nth-child(4) {
+  margin-top:-55px;
+}
+.f-rightsub li {
+	flex: 1 1 40%;
+}
+.input-wrap{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-bottom{
+  padding: 24px 15px;
+  text-align: center;
+}
+.f-bottom-left > span br {
+  display:none !important ;
+}
+.f-bottom-left span{
+  white-space : pre-line;
+}
+.f-bottom-left {
+  font-size:8px;
+}
+.f-bottom-wrap {
+  width: 100%;
+  display:unset;
+} 
+.worldicon {
+  font-size: 24px;
+  margin-right:6px;
+}
+.f-bottom-right {
+  display:flex;
+  justify-content:center;
+  font-size:10px;
+  margin-top:16px;
+} 
